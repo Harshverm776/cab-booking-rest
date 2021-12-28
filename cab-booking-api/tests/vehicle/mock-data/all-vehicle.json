@@ -1,0 +1,45 @@
+[{
+        "vehicle": {
+            "name": "maruti",
+            "model": "sl4",
+            "capacity": 4,
+            "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+            "vin": "12345678901234567"
+        },
+        "_id": "6197483bf2920f10380990a9",
+        "__v": 0
+    },
+    {
+        "vehicle": {
+            "name": "maruti",
+            "model": "xy3",
+            "capacity": 6,
+            "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+            "vin": "12345678901234567"
+        },
+        "_id": "6197485bf2920f10380990ac",
+        "__v": 0
+    },
+    {
+        "vehicle": {
+            "name": "maruti",
+            "model": "fudfui",
+            "capacity": 6,
+            "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+            "vin": "12345678901234569"
+        },
+        "_id": "61979a1997d2125768952617",
+        "__v": 0
+    },
+    {
+        "vehicle": {
+            "name": "maruti",
+            "model": "fudfui",
+            "capacity": 6,
+            "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+            "vin": "12345678901234567"
+        },
+        "_id": "619de36afa7f104a68d675e2",
+        "__v": 0
+    }
+]

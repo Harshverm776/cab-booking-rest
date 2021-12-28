@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "7c05c5a0-f8db-4ebd-9b42-8ac2b4c38437",
+		"name": "cab-booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "vehicle",
+			"item": [
+				{
+					"name": "createVehicle",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"vehicle\": {\r\n        \"name\": \"maruti\",\r\n        \"model\": \"fudfui\",\r\n        \"capacity\": 6,\r\n        \"date_of_manufacture\": \"2015-08-22\",\r\n        \"vin\": \"12345678901234567\"\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8001/vehicle"
+					},
+					"response": []
+				},
+				{
+					"name": "getVehicle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8001/vehicle"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "booking",
+			"item": [
+				{
+					"name": "createBooking",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"customer\": {\r\n        \"name\": \"Harsh\",\r\n        \"phone_number\": 1234567812,\r\n        \"email\": \"harsh@gmail.com\",\r\n        \"cus_capacity\": 4\r\n    },\r\n    \r\n    \"vin\": \"12345678901234569\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8001/booking"
+					},
+					"response": []
+				},
+				{
+					"name": "getBooking",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "getBookingByVin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8001/booking/vin/12345678901234567"
+					},
+					"response": []
+				},
+				{
+					"name": "getBookingByDate",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8001/booking/date/2021-11-21"
+					},
+					"response": []
+				},
+				{
+					"name": "updateBookings",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

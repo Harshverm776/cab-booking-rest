@@ -1,0 +1,58 @@
+[{
+        "customer": {
+            "name": "Raj",
+            "email": "skdjfksj@gmail.com",
+            "phone_number": 1234567890,
+            "cus_capacity": 4
+        },
+        "vehicle": {
+            "name": "maruti",
+            "capacity": 4,
+            "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+            "model": "sl4",
+            "vin": "12345678901234567"
+        },
+        "_id": "619a4300d0129f339ca44233",
+        "booking_date": "2021-11-21T13:00:48.013Z",
+        "__v": 0,
+        "is_active": false
+    },
+    {
+        "customer": {
+            "name": "Raj",
+            "email": "skdjfksj@gmail.com",
+            "phone_number": 1234567890,
+            "cus_capacity": 4
+        },
+        "vehicle": {
+            "name": "maruti",
+            "capacity": 4,
+            "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+            "model": "sl4",
+            "vin": "12345678901234567"
+        },
+        "_id": "619a46d5edd04e2cb4aaa478",
+        "booking_date": "2021-11-21T13:17:09.112Z",
+        "__v": 0,
+        "is_active": false
+    },
+    {
+        "customer": {
+            "name": "Raj",
+            "email": "skdjfksj@gmail.com",
+            "phone_number": 1234567890,
+            "cus_capacity": 4
+        },
+        "vehicle": {
+            "name": "maruti",
+            "capacity": 4,
+            "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+            "model": "sl4",
+            "vin": "12345678901234567"
+        },
+        "_id": "619a4722edd04e2cb4aaa47c",
+        "booking_date": "2021-11-21T13:18:26.468Z",
+        "__v": 0,
+        "is_active": false
+    }
+]

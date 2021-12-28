@@ -1,0 +1,9 @@
+{
+    "vehicle": {
+        "name": "maruti",
+        "model": "fudfui",
+        "capacity": 6,
+        "date_of_manufacture": "2015-08-22",
+        "vin": "12345678901234567"
+    }
+}

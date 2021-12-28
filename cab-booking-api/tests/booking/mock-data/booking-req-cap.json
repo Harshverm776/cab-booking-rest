@@ -1,0 +1,10 @@
+{
+    "customer": {
+        "name": "Harsh",
+        "phone_number": 1234567812,
+        "email": "harsh@gmail.com",
+        "cus_capacity": 10
+    },
+
+    "vin": "12345678901234569"
+}

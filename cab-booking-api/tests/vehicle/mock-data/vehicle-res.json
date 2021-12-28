@@ -1,0 +1,11 @@
+{
+    "_id": "619de36afa7f104a68d675e2",
+    "vehicle": {
+        "name": "maruti",
+        "model": "fudfui",
+        "capacity": 6,
+        "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+        "vin": "12345678901234567"
+    },
+    "__v": 0
+}

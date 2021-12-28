@@ -1,0 +1,23 @@
+{
+    "name": "cab-booking",
+    "version": "1.0.0",
+    "description": "small cab booking system",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "test": "jest --watchAll"
+    },
+    "author": "harsh",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^27.3.1",
+        "nodemon": "^2.0.7"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "joi": "^17.4.2",
+        "mongodb": "^3.6.9",
+        "mongoose": "^5.12.13",
+        "node-mocks-http": "^1.10.1"
+    }
+}

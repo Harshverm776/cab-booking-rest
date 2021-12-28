@@ -1,0 +1,18 @@
+{
+    "_id": "619f98531d83054ae4a7122b",
+    "customer": {
+        "name": "Harsh",
+        "email": "harsh@gmail.com",
+        "phone_number": 1234567812,
+        "cus_capacity": 4
+    },
+    "vehicle": {
+        "name": "maruti",
+        "capacity": 6,
+        "date_of_manufacture": "2015-08-22T00:00:00.000Z",
+        "model": "fudfui",
+        "vin": "12345678901234569"
+    },
+    "booking_date": "2021-11-25T04:30:00.000Z",
+    "__v": 0
+}
